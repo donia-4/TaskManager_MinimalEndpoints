@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:5117
+
+
+### Add new task
+POST {{baseUrl}}/api/tasks
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Finish backend architecture",
+  "description": "Refactor services and clean architecture layers",
+  "deadline": "2026-02-25T18:00:00Z",
+  "importance": 9
+}
